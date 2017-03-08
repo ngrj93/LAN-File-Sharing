@@ -1,0 +1,9 @@
+Compilation steps - 
+
+g++ server.cpp -o server -std=c++11
+
+g++ client.cpp -o client -std=c++11
+
+command line arguments for server.cpp - port number
+
+commmand line arguments for client.cpp - server_address server_port client_download_port
